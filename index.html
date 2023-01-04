@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <title>Sign up pls</title>
+  </head>
+  <body class="d-flex flex-column flex-md-row text-white bg-dark font-monospace">
+    <div>
+      <img
+        class="img-fluid h-100"
+        src="./champagne-g643d8ffac_1920.jpg"
+        alt="Alcohol">
+    </div>
+    <div class="d-flex flex-column fs-4 fw-bolder p-2 gap-4 h-100 w-100">
+      <header class="h-25 d-flex flex-column text-center">
+        <p>
+          <i>
+            <span class="text-red">This is not a real online service!</span> Blakablaka, remember to not
+            drink alcohol because it's not healthy. Sign up now to get a lot of alcohol
+            for free.
+          </i>
+        </p>
+        <p class="text-bg-danger">We want your data so fill the form below!</p>
+      </header>
+      <main>
+        <form class="d-flex flex-column fs-5 w-100 h-50 gap-3" action="">
+          <div class="text-center">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="e.g. Zybediach" required>
+          </div>
+          <div class="text-center">
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" placeholder="e.g. Żółciuteńka">
+          </div>
+          <div class="text-center">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="e.g. cutecats@cat.eu" required>
+          </div>
+          <div class="text-center">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="e.g. admin123">
+          </div>
+          <div class="text-center">
+            <label for="drinker">Are you a heavy drinker?</label>
+            <br>
+
+            <input type="radio" id="drinker" value="yes" required>
+            <label for="drinker">Yes</label>
+          </div>
+          <div class="text-center">
+            <input type="submit" class="btn btn-primary" value="Submit">
+            <input type="reset" class="btn btn-danger">
+          </div>
+        </form>
+      </main>
+      <footer class="pt-4 d-flex row text-center h-25">
+        <p>© 2023 Maciej Bąba</p>
+      </footer>
+    </div>
+  </body>
+</html>
