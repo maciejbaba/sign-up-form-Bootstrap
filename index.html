@@ -18,15 +18,15 @@
     ></script>
     <title>Sign up pls</title>
   </head>
-  <body class="d-flex flex-column flex-md-row text-white bg-dark font-monospace">
+  <body class="overflow-x-hidden d-flex flex-column flex-md-row text-white bg-dark font-monospace">
     <div>
       <img
         class="img-fluid h-100"
         src="./champagne-g643d8ffac_1920.jpg"
         alt="Alcohol">
     </div>
-    <div class="d-flex flex-column fs-4 fw-bolder p-2 gap-4 h-100 w-100">
-      <header class="h-25 d-flex flex-column text-center">
+    <div class="d-flex flex-column text-center fw-bolder p-2 gap-1">
+      <header class="d-flex flex-column">
         <p>
           <i>
             <span class="text-red">This is not a real online service!</span> Blakablaka, remember to not
@@ -37,37 +37,37 @@
         <p class="text-bg-danger">We want your data so fill the form below!</p>
       </header>
       <main>
-        <form class="d-flex flex-column fs-5 w-100 h-50 gap-3" action="">
-          <div class="text-center">
+        <form class="d-flex flex-column gap-2 align-items-center" action="">
+          <div class="d-flex justify-content-between w-75">
             <label for="name">Name</label>
             <input type="text" id="name" placeholder="e.g. Zybediach" required>
           </div>
-          <div class="text-center">
+          <div class="d-flex justify-content-between w-75">
             <label for="surname">Surname</label>
             <input type="text" id="surname" placeholder="e.g. Żółciuteńka">
           </div>
-          <div class="text-center">
+          <div class="d-flex justify-content-between w-75">
             <label for="email">Email</label>
             <input type="email" id="email" placeholder="e.g. cutecats@cat.eu" required>
           </div>
-          <div class="text-center">
+          <div class="d-flex justify-content-between w-75">
             <label for="password">Password</label>
             <input type="password" id="password" placeholder="e.g. admin123">
           </div>
-          <div class="text-center">
+          <div>
             <label for="drinker">Are you a heavy drinker?</label>
             <br>
 
             <input type="radio" id="drinker" value="yes" required>
             <label for="drinker">Yes</label>
           </div>
-          <div class="text-center">
-            <input type="submit" class="btn btn-primary" value="Submit">
-            <input type="reset" class="btn btn-danger">
+          <div>
+            <input type="submit" class="btn btn-primary btn-sm" value="Submit">
+            <input type="reset" class="btn btn-danger btn-sm">
           </div>
         </form>
       </main>
-      <footer class="pt-4 d-flex row text-center h-25">
+      <footer class="pt-2 d-flex row">
         <p>© 2023 Maciej Bąba</p>
       </footer>
     </div>
